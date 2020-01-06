@@ -5,7 +5,8 @@ require(RCurl)
 library(TSA)
 library(ggplot2)
 
-link <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vRW2t0dNlynd9pTXSEtwYuKNiS944FJPq9Zc5_PpWf_jBP5lFCpJmj2-qT0Q41j2e0_Sop3XUCqTJjh/pub?output=csv"
+#link <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vRW2t0dNlynd9pTXSEtwYuKNiS944FJPq9Zc5_PpWf_jBP5lFCpJmj2-qT0Q41j2e0_Sop3XUCqTJjh/pub?output=csv"
+link <- "https://raw.githubusercontent.com/mircea84/Fourier-business-cycles/master/RO_unempl_rate_data.csv"
 url <- getURL( link )
 con <- textConnection( url )
 data <- read.csv( con )
@@ -95,7 +96,7 @@ f[ which( f$main_fft_coef > .10 ),1 ]
 # excel FFT - Applying Discrete Fourier Transforms - https://flylib.com/books/en/2.22.1/applying_discrete_fourier_transforms.html
 
 
-# De citit
+# Stuff to read
 # Forecasting unemployment by @ellis2013nz - https://www.r-bloggers.com/forecasting-unemployment-by-ellis2013nz/
 # !! Romania Poverty Monitoring Analytical and AdvisoryAssistance Program: - http://siteresources.worldbank.org/INTDEBTDEPT/Resources/468980-1218567884549/5289593-1224797529767/RomaniaDFSG01.pdf
 # Fourier Analysis of Signals - https://www.audiolabs-erlangen.de/content/05-fau/professor/00-mueller/04-bookFMP/2015_Mueller_FundamentalsMusicProcessing_Springer_Section2-1_SamplePages.pdf
