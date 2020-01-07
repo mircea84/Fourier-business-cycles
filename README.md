@@ -1,5 +1,4 @@
 # Fourier-business-cycles
-Business cycles revealed by Fourier transform applied to unemployment rate in Romania using R
 
 This piece of code started from an attempt to learn R programming by doing something meaningful. Don't take it too seriously and think it is a tool for forecasting economy recessions! Analysts and policymakers (the main actors interested in understanding and anticipating business cycles) rely on more complicated economic models (Dynamic Stochastic General Equilibrium - DSGE).
 
