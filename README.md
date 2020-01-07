@@ -36,4 +36,4 @@ In trying to understand what caused the patterns and changes mentioned above, I'
 ![Alt text](doc/fig5_Industry_contrib_GDP.png?raw=true "Industry contribution to GDP")
 Figure 5 - Industry contribution to GDP (CON106E - Produsul intern brut trimestrial - serie bruta CAEN Rev.2, preturi medii ale anului 2000)
 
-Thanks for reading and I hope it helps. Comments and ideas are welcomed.
+Thanks for reading and I hope it helps. Comments and ideas are welcome.
