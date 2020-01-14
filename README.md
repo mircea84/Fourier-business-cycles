@@ -2,7 +2,7 @@
 
 This piece of code started from an attempt to learn R programming by doing something meaningful. Don't take it too seriously and think it is a tool for forecasting economy recessions! Analysts and policymakers (the main actors interested in understanding and anticipating business cycles) rely on more complicated economic models (Dynamic Stochastic General Equilibrium - DSGE).
 
-Business cycles can be seen from periodic variations of economic output, as well as other macroeconomic variables. Fourier transform is a great tool for spotting variations in any time-series, regardless of the underlying measure. An alternative that considers variations is periodicity is wavelet transform.
+Business cycles can be seen from periodic variations of economic output, as well as other macroeconomic variables. Fourier transform is a great tool for spotting variations in time-series, regardless of the underlying measure. An alternative that considers variations is periodicity is wavelet transform.
 
 The chosen macroeconomic variable studied is unemployment rate from 1992 to 2019, provided by INSSE (www.insse.ro). 
 ![Alt text](doc/fig1_Unempl_Rate.jpg?raw=true "Unemployment rate Romania")
