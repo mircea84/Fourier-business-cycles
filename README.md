@@ -30,11 +30,6 @@ Top 5 amplitude peaks and their respective frequencies are below. The correspond
 | 28  | 0.08484848    | 0.1675955     | 0.4910714       |
 | 29  | 0.08787879    | 0.2415176     | 4.5833333       |
 | 56  | 0.16969697    | 0.1406687     | 1.0185185       |
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 The first three peaks show what was visible from the time chart - one-year periodicity. Fourier analysis discovered a 4th peak, too - four and a half year periodicity in analyzed data. 
 
