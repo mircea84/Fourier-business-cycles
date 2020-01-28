@@ -22,13 +22,14 @@ Figure 4 - Unemployment rate spectogram
 
 X-axis represents the frequencies of each cycle and Y-axis is the impact of a particular cycle on the analyzed data - we could say that the higher the amplitude, the stronger that particular pattern is.
 Top 5 amplitude peaks and their respective frequencies are below. The corresponding duration of the cycle (derived from fft_freq column) is on the right of the table.
-     fft_freq         main_fft_coef   cycle duration
-     (cycles/moth)    (amplitude)     (years)
-6    0.01818182       0.1116425       0.9482759
-27   0.08181818       0.1062799       0.9821429
-28   0.08484848       0.1675955       0.4910714
-29   0.08787879       0.2415176       4.5833333
-56   0.16969697       0.1406687       1.0185185
+|     |  fft_freq     | main_fft_coef | cycle duration  |
+|     | (cycles/moth) | (amplitude)   | (years)         |
+|-----|---------------|---------------|-----------------|
+| 6   | 0.01818182    | 0.1116425     | 0.9482759       |
+| 27  | 0.08181818    | 0.1062799     | 0.9821429       |
+| 28  | 0.08484848    | 0.1675955     | 0.4910714       |
+| 29  | 0.08787879    | 0.2415176     | 4.5833333       |
+| 56  | 0.16969697    | 0.1406687     | 1.0185185       |
 
 The first three peaks show what was visible from the time chart - one-year periodicity. Fourier analysis discovered a 4th peak, too - four and a half year periodicity in analyzed data. 
 
